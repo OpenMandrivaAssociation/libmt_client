@@ -1,6 +1,6 @@
 %define name libmt_client
 %define version 0.1.98
-%define release %mkrel 7
+%define release %mkrel 9
 %define major 0
 %define libname %mklibname mt_client %major
 
