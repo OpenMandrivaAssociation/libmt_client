@@ -1,6 +1,6 @@
 %define name libmt_client
 %define version 0.1.98
-%define release %mkrel 10
+%define release 11
 %define major 0
 %define libname %mklibname mt_client %major
 
@@ -27,7 +27,7 @@ for the client.
 
 %description -l fr
 Maitretarot est le serveur pour un jeu de tarot. Libmt_client
-est une biblothèque pour les logiciels client.
+est une biblothï¿½que pour les logiciels client.
 
 %package -n %libname
 Summary: The Maitretarot client library
@@ -40,7 +40,7 @@ for any client.
 
 %description -n %libname -l fr
 Maitretarot est le serveur pour un jeu de tarot. Libmt_client
-est une biblothèque pour les logiciels client.
+est une biblothï¿½que pour les logiciels client.
 
 %package -n %libname-devel
 Summary: Development files from Libmaitretarot
@@ -52,7 +52,7 @@ Provides: %name-devel = %version-%release
 This package is need to build application wich use Libmt_client.
 
 %description -n %libname-devel -l fr
-Ce package est utilisé pour compiler les applications qui utilise 
+Ce package est utilisï¿½ pour compiler les applications qui utilise 
 Libmt_client.
 
 %prep
